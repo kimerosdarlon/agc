@@ -1,0 +1,15 @@
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
+
+app_identifier("br.gov.agentedecampo") # The bundle identifier of your app
+apple_id("samirchaves@insightlab.ufc.br") # Your Apple email address
+
+itc_team_id("120295834") # App Store Connect Team ID
+team_id("YRPTWSJH9V") # Developer Portal Team ID
+
+CERT_FILE_PATH = "./profiles/CertificadoDistribuicao.p12"
+
+# register_device(
+#     name: "InsightLab iPhone 11",
+#     udid: "00008030000515E91E21802E"
+# )

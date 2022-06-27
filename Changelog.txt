@@ -1,0 +1,2 @@
+Versão 1.13.168 - 2021-27-12
+- Correções e melhorias nos fluxos de edição de uma ocorrência do CAD.

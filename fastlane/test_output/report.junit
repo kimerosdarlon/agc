@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='OcurrencyBulletinUnitTests.xctest' tests='59' failures='10'>
+  <testsuite name='AgentedeCampoTests.ACEnviromentTest' tests='1' failures='0'>
+    <testcase classname='AgentedeCampoTests.ACEnviromentTest' name='ACEnviroment__check_if_exist__should_be_true' time='0.003'/>
+  </testsuite>
+  <testsuite name='AgentedeCampoTests.FormatedDateStrategyTest' tests='13' failures='0'>
+    <testcase classname='AgentedeCampoTests.FormatedDateStrategyTest' name='Formatacao_de_data__Strategia_de_minutos__Deve_retornar_minutos_no_plural' time='0.001'/>
+    <testcase classname='AgentedeCampoTests.FormatedDateStrategyTest' name='Formatacao_de_data__Strategia_de_minutos__Deve_retornar_minutos_singular' time='0.001'/>
+    <testcase classname='AgentedeCampoTests.FormatedDateStrategyTest' name='Formatacao_de_data__Strategia_de_hora__Deve_retornar_hora_no_singular' time='0.001'/>
+    <testcase classname='AgentedeCampoTests.FormatedDateStrategyTest' name='Formatacao_de_data__Strategia_de_hora__Deve_retornar_horas_no_plural' time='0.001'/>
+    <testcase classname='AgentedeCampoTests.FormatedDateStrategyTest' name='Formatacao_de_data__Strategia_de_dia__Deve_retornar_dia_no_singular' time='0.001'/>
+    <testcase classname='AgentedeCampoTests.FormatedDateStrategyTest' name='Formatacao_de_data__Strategia_de_dia__Deve_retornar_dias_no_plural' time='0.001'/>
+    <testcase classname='AgentedeCampoTests.FormatedDateStrategyTest' name='Formatacao_de_data__Strategy_Chain__Deve_retornar_mês_no_singular' time='0.001'/>
+    <testcase classname='AgentedeCampoTests.FormatedDateStrategyTest' name='Formatacao_de_data__Strategy_Chain__Deve_retornar_meses_no_plural' time='0.001'/>
+    <testcase classname='AgentedeCampoTests.FormatedDateStrategyTest' name='Formatacao_de_data__Strategy_Chain__Deve_retornar_semana_no_singular' time='0.001'/>
+    <testcase classname='AgentedeCampoTests.FormatedDateStrategyTest' name='Formatacao_de_data__Strategy_Chain__Deve_retornar_semanas_no_plural' time='0.001'/>
+    <testcase classname='AgentedeCampoTests.FormatedDateStrategyTest' name='Formatacao_de_data__Strategy_Chain__Deve_retornar_ano_no_singular' time='0.001'/>
+    <testcase classname='AgentedeCampoTests.FormatedDateStrategyTest' name='Formatacao_de_data__Strategy_Chain__Deve_retornar_anos_no_plural' time='0.001'/>
+    <testcase classname='AgentedeCampoTests.FormatedDateStrategyTest' name='Formatacao_de_data__Strategy_Chain__Deve_retornar_ha_mais_de_x_anos' time='0.001'/>
+  </testsuite>
+  <testsuite name='AgentedeCampoTests.RoleTests' tests='1' failures='0'>
+    <testcase classname='AgentedeCampoTests.RoleTests' name='Roles__check_if_exist__should_be_true' time='0.000'/>
+  </testsuite>
+  <testsuite name='OcurrencyBulletinUnitTests.ModuleTests' tests='27' failures='0'>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_regex_patterns__should_match_with__CPF_with_symbols' time='0.002'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_regex_patterns__should_match_with__CPF_without_symbols' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_regex_patterns__should_not_match_with__imcomplet_CPF' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_regex_patterns__should_not_match_with__letters_in_CPF' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_regex_patterns__should_match_with__CNPJ_with_symbols' time='0.000'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_regex_patterns__should_match_with__CNPJ_without_symbols' time='0.000'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Check_module_name__should_be_Boletim' time='0.000'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Check_module_role__Should_be_ROLE_AGENTE_CAMPO_BUSCA_BO' time='0.000'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Check_module_controllers__shold_be_OcurrenceBulletinViewController' time='0.000'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Check_module_controllers__shold_be_OccurrenceBulletinFilterViewController' time='0.000'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Check_if_is_active__should_be_true' time='0.000'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Check_module_icon_name__should_be_bulletim' time='0.000'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_params_for_request__check_involved_request_params' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_params_for_request__check_plate_params' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_params_for_request__check_chassi_params' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_params_for_request__check_national_code_params' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_params_for_request__check_cpf_params' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_params_for_request__check_cnpj_params' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_params_for_request__should_be_empty_for_single_name' time='0.000'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_infos__Should_return_involved_info' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_infos__Should_return_plate_info' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_infos__Should_return_national_code_info' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_infos__Should_return_chassi_info' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_infos__Should_return_cpf_info' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_infos__Should_return_cnpj_info' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_actions__Should_return_a_search_action' time='0.003'/>
+    <testcase classname='OcurrencyBulletinUnitTests.ModuleTests' name='Test_bulletin_actions__Should_return_empty_action' time='0.000'/>
+  </testsuite>
+  <testsuite name='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' tests='17' failures='10'>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_Clear_TextFields_When_Clear_Button_Is_Pressed' time='1.334'/>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_Fill_General_Filter' time='0.007'/>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_clear_GeneralFilter_TextFields' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_fill_Vehicle_Filter' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_clear_Vehicle_Filter' time='0.001'/>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_fill_Weapon_filter'>
+      <failure message='expected to equal &lt;Fortaleza&gt;, got &lt;&gt;'>OcurrencyBulletinUnitTests/OcurrenceBulletinFilterTest.swift:203</failure>
+    </testcase>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_fill_Weapon_filter'>
+      <failure message='expected to equal &lt;Limpar (5)&gt;, got &lt;Limpar (4)&gt;'>OcurrencyBulletinUnitTests/OcurrenceBulletinFilterTest.swift:205</failure>
+    </testcase>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_clear_Weapon_Filter' time='0.003'/>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_fill_Cellphone_filter'>
+      <failure message='expected to equal &lt;Fortaleza&gt;, got &lt;&gt;'>OcurrencyBulletinUnitTests/OcurrenceBulletinFilterTest.swift:240</failure>
+    </testcase>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_fill_Cellphone_filter'>
+      <failure message='expected to equal &lt;Limpar (4)&gt;, got &lt;Limpar (3)&gt;'>OcurrencyBulletinUnitTests/OcurrenceBulletinFilterTest.swift:242</failure>
+    </testcase>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_clear_Cellphone_Filter' time='0.003'/>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_Fill_Phisical_Involved_Filter'>
+      <failure message='expected to equal &lt;Ceará&gt;, got &lt;&gt;'>OcurrencyBulletinUnitTests/OcurrenceBulletinFilterTest.swift:55</failure>
+    </testcase>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_Fill_Phisical_Involved_Filter'>
+      <failure message='expected to equal &lt;Fortaleza&gt;, got &lt;&gt;'>OcurrencyBulletinUnitTests/OcurrenceBulletinFilterTest.swift:56</failure>
+    </testcase>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_Fill_Phisical_Involved_Filter'>
+      <failure message='expected to equal &lt;Limpar (9)&gt;, got &lt;Limpar (7)&gt;'>OcurrencyBulletinUnitTests/OcurrenceBulletinFilterTest.swift:58</failure>
+    </testcase>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_Fill_Legal_Involved_Filter'>
+      <failure message='expected to equal &lt;Ceará&gt;, got &lt;&gt;'>OcurrencyBulletinUnitTests/OcurrenceBulletinFilterTest.swift:77</failure>
+    </testcase>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_Fill_Legal_Involved_Filter'>
+      <failure message='expected to equal &lt;Fortaleza&gt;, got &lt;&gt;'>OcurrencyBulletinUnitTests/OcurrenceBulletinFilterTest.swift:79</failure>
+    </testcase>
+    <testcase classname='OcurrencyBulletinUnitTests.OcurrenceBulletinFilterTest' name='Test_filter_fill__Should_Fill_Legal_Involved_Filter'>
+      <failure message='expected to equal &lt;Limpar (4)&gt;, got &lt;Limpar (2)&gt;'>OcurrencyBulletinUnitTests/OcurrenceBulletinFilterTest.swift:82</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

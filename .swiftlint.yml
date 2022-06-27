@@ -1,0 +1,25 @@
+disabled_rules:
+ - line_length
+ - trailing_whitespace
+ - force_cast
+ - shorthand_operator
+ - large_tuple
+ - identifier_name
+ - type_name
+excluded:
+ - Pods
+ - fastlane
+ - AgentedeCampoTests
+ - OcurrencyBulletinUnitTests/GeneratedMocks.swift
+ 
+cyclomatic_complexity: 11
+
+identifier_name:
+  allowed_symbols: "_"
+  min_length: 3
+  max_length:
+    warning: 90
+    error: 1000
+  excluded:
+    - id
+    - "T"

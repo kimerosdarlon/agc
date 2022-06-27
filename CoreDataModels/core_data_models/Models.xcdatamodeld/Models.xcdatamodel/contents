@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDCity" representedClassName="CDCity" syncable="YES" codeGenerationType="class">
+        <attribute name="code" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CDRecents" representedClassName="CDRecents" syncable="YES" codeGenerationType="class">
+        <attribute name="date" attributeType="Date" defaultDateTimeInterval="611153940" usesScalarValueType="NO"/>
+        <attribute name="iconName" attributeType="String" defaultValueString=""/>
+        <attribute name="module" attributeType="String" defaultValueString=""/>
+        <attribute name="searchString" optional="YES" attributeType="Binary"/>
+        <attribute name="text" attributeType="String" defaultValueString=""/>
+        <attribute name="textExpanded" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CDState" representedClassName="CDState" syncable="YES" codeGenerationType="class">
+        <attribute name="initials" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="cities" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CDCity"/>
+    </entity>
+    <elements>
+        <element name="CDCity" positionX="-54" positionY="27" width="128" height="73"/>
+        <element name="CDRecents" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="CDState" positionX="-63" positionY="18" width="128" height="88"/>
+    </elements>
+</model>

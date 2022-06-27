@@ -1,0 +1,41 @@
+//
+//  Stage.xcconfig
+//  SinespAgenteCampo
+//
+//  Created by Ramires Moreira on 24/05/20.
+//  Copyright © 2020 Ramires Moreira. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+//#include "Pods/Target Support Files/Pods-SinespAgenteCampo/Pods-SinespAgenteCampo.release.xcconfig"
+//LOG_APP_SECRET = aZvvaonozvyiubyvjsvBNxdgYeda91a8
+//APP_CENTER_APP_ID = 9a079519-431f-4331-b662-e860da6dffdf
+//LOG_ENCRYPTION_KEY = igy6l0DmibuextoRkG7sazyn0biugdXb
+//ENVIROMENT = stage
+//LOG_APP_ID = 2kYqxW
+//HOST = agente.stage.mj.gov.br/api
+//SCHEMA = https
+//API_SERVER_KEY = f89615e13d55824279e0bdf19001acc1
+//SYSTEM_INITIALS = AGENTE_CAMPO_DEV
+//APP = APP_AGENTE_CAMPO_DEV
+//APP_NAME = Sinesp Agente de Campo
+//APP_VERSION = V0.1.0
+
+#include "Pods/Target Support Files/Pods-SinespAgenteCampo/Pods-SinespAgenteCampo.debug.xcconfig"
+LOG_APP_SECRET = aZvvaonozvyiubyvjsvBNxdgYeda91a8
+APP_CENTER_APP_ID = 9a079519-431f-4331-b662-e860da6dffdf
+LOG_ENCRYPTION_KEY = igy6l0DmibuextoRkG7sazyn0biugdXb
+ENVIROMENT = stage
+LOG_APP_ID = 2kYqxW
+HOST = agente.stage.mj.gov.br
+SCHEMA = https
+API_SERVER_KEY = 0587ffb6ae3757d42e4275af89df95c5
+IDENTITY_HEADER_SALT = s09fasz75xlm1i6
+IDENTITY_HEADER_SECRET = .531@agcapp$
+SYSTEM_INITIALS = AGENTE_CAMPO_DEV
+APP = APP_AGENTE_CAMPO_DEV
+APP_NAME = Sinesp Agente de Campo
+APP_VERSION = v1.5.0-stage
+PRIVACY_POLICIES_LINK = agente.sinesp.gov.br/politica-privacidade
+//PRIVACY_POLICIES_LINK = agente.stage.mj.gov.br/politica-privacidade

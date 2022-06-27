@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="61" height="55" viewBox="0 0 61 55">
+  <g id="prisao" transform="translate(-1601 -1395)">
+    <g id="Retângulo_2909" data-name="Retângulo 2909" transform="translate(1601 1395)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="5">
+      <rect width="61" height="55" rx="6" stroke="none"/>
+      <rect x="2.5" y="2.5" width="56" height="50" rx="3.5" fill="none"/>
+    </g>
+    <path id="Caminho_16739" data-name="Caminho 16739" d="M-18071.5,10947.487v49.632" transform="translate(19692.256 -9550)" fill="none" stroke="#000" stroke-width="5"/>
+    <path id="Caminho_16740" data-name="Caminho 16740" d="M-18071.5,10947.487v49.632" transform="translate(19713.752 -9550)" fill="none" stroke="#000" stroke-width="5"/>
+    <path id="Subtração_2" data-name="Subtração 2" d="M19712-9532h-21v-18h21v18Zm-13-9.5a.5.5,0,0,0-.5.5v4a.5.5,0,0,0,.5.5h5a.506.506,0,0,0,.5-.5v-4a.5.5,0,0,0-.5-.5h-.332a3.406,3.406,0,0,0-.592-2.339,2.059,2.059,0,0,0-1.625-.649,1.987,1.987,0,0,0-1.6.645,3.279,3.279,0,0,0-.512,2.342Z" transform="translate(-18070 10964)"/>
+    <path id="Caminho_16742" data-name="Caminho 16742" d="M-18058.744,10970.829s.254-2.319-1.5-2.319-1.424,2.319-1.424,2.319Z" transform="translate(19691.711 -9548.339)" fill="#181a1c"/>
+  </g>
+</svg>

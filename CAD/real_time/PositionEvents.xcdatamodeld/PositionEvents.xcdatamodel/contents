@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PositionEventInput" representedClassName=".PositionEventInput" syncable="YES">
+        <attribute name="accuracy" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="deviceId" attributeType="String"/>
+        <attribute name="equipmentId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="eventTimestamp" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="latitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="teamId" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="PositionEventInput" positionX="-63" positionY="-18" width="128" height="148"/>
+    </elements>
+</model>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:roda_eusebio.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:rota_casa.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:rota_acre.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:trajetoria_test.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:espiral_fortaleza_fast.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:SinespAgenteCampo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
